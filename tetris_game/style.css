@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/background-img.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+
+#board-game{
+    width: 250px;
+    height: 500px;
+    background-color: #34495e;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.board-game-container {
+    padding: 10px;
+    border: 5px solid #9b59b6;
+    background-color: #7f8c8ddb;
+    border-radius: 10px;
+}
+
+.mini-grid-container{
+    position: absolute;
+    top: 43%;
+    left: 65%;
+    padding: 10px;
+    border: 5px solid #9b59b6;
+    background-color: #7f8c8ddb;
+    border-radius: 10px;
+}
+
+.mini-grid-container .up-coming-text {
+    color: whitesmoke;
+    margin-bottom: 5px;
+}
+
+
+.mini-grid {
+    width: 100px;
+    height: 100px;
+    background-color: #34495e;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: hidden;
+
+}
+
+
+#board-game div , .mini-grid div{
+    width: 25px;
+    height: 25px;
+}
+
+.seg-part{
+    border: .25vmin solid #000;
+    background-color: #2980b9;
+}
+
+.score-box {
+    width: 230px;
+    height: 100px;
+    background-color: #e67e22;
+    border: 5px solid #d35400;
+    border-radius: 15px;
+    color: whitesmoke;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.score-box h1 {
+    text-align: center;
+    line-height: 42px;
+}
+
+.score-box #score {
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 0 0 7px #f1c40f;
+    display: block;
+}
