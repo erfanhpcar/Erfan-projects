@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.game-container{
+    
+    width: 400px;
+    margin: 150px auto;
+}
+
+.game-container > h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.user-options{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-option > h1{
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.user-option > h1:hover{
+    transform: scale(1.5);
+}
+
+.user-option > h1:active{
+    transform: scale(1);
+}
+
+#result{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+#result > div{
+    width: 50%;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.title > h3{
+    /* font-size: .75rem; */
+    opacity: .75;
+    margin-left: 10px;
+}
+
+#you-result, #computer-result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.win{
+    font-size: 2.5rem;
+}
+
+.lose{
+    font-size: 1.5rem;
+    opacity: .5;
+    height: 53px;
+    line-height: 53px;
+    
+}
