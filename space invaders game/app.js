@@ -517,12 +517,12 @@ animate();
 addEventListener("keydown", ({key}) => {
     if(game.over) return;
     switch(key){
-        case "a":
+        case "A":
             // console.log("left");
             player.velocity.x = -5;
             keys.a.pressed = true;
             break;
-        case "d":
+        case "D":
             // console.log("right");
             player.velocity.x = 5;
             keys.d.pressed = true;
@@ -546,12 +546,11 @@ addEventListener("keydown", ({key}) => {
 addEventListener("keyup", ({key}) => {
     
     switch(key){
-        case "a":
-            // console.log("left");
-            
+        case "A":
+            // console.log("left");        
             keys.a.pressed = false;
             break;
-        case "d":
+        case "D":
 
             // console.log("right");
             keys.d.pressed = false;
