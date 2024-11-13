@@ -1,0 +1,15 @@
+**Description:**
+
+This project is a classic Tetris game, designed in JavaScript with a modular approach. In this game, the player controls various blocks that fall from the top of the screen, aiming to build complete rows of blocks to earn points as they clear. The modular design ensures that the game code is well-structured and maintainable, making it easier to develop and enhance the game.
+
+**Project Details:**
+
+1. **Game Controls with 'a', 'd', 'q', and 'e' Keys**: The player can move blocks left using the 'a' key and right using the 'd' key. The 'q' and 'e' keys allow for left and right rotation of blocks, respectively, enabling precise placement.
+
+2. **Modular Design**: The project is built with a modular design approach, where each part of the game—such as block management, collision detection, rotations, and score management—is implemented separately. This structure makes the game code easy to develop, maintain, and more readable.
+
+3. **Collision Detection and Row Clearing**: The game is designed to detect block collisions with walls and other blocks, stopping their movement when they hit obstacles. Each time a full row of blocks is completed, it is cleared, and the player’s score increases.
+
+4. **Block Movement and Rotation Implementation with JavaScript**: The logic for moving and rotating blocks is entirely implemented in JavaScript. This gives players precise control to place blocks according to their strategy and advance in the game.
+
+This project demonstrates my skills in creating classic games, using modern programming techniques such as modular design and code structuring. The optimized controls and attention to detail in implementation make this game a smooth and enjoyable user experience.
