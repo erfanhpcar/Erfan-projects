@@ -1,0 +1,17 @@
+**Description:**
+
+This project is an exciting space shooter game developed in JavaScript using object-oriented programming (OOP) techniques. In this game, the player controls a spaceship that can move left and right and shoot at enemies positioned at the top of the screen. The goal is for the player to avoid collisions with enemy projectiles and enemies while scoring points.
+
+**Project Details:**
+
+1. **Movement with 'a' and 'd' Keys and Shooting with Spacebar**: The player can move the spaceship left using the 'a' key and right using the 'd' key. Pressing the spacebar allows the spaceship to shoot at enemies. These actions are implemented through event listeners added to the keyboard keys.
+
+2. **Object-Oriented Programming (OOP) Principles**: The game is structured with multiple classes to manage various components, including a `Player` class for the spaceship, `Projectile` class for player bullets, `Invader` class for enemies, and `Particle` class for visual effects. Each class has specific tasks and properties, making the code well-structured and extensible.
+
+3. **Enemy Movement and Shooting**: Enemies are positioned at the top of the screen and periodically shoot projectiles downward. This mechanic is implemented using timers and automated enemy movement, adding to the game's challenge and enhancing the player experience.
+
+4. **Collision Management**: The collision system is designed so that if the player collides with an enemy or its projectiles, the game ends. This feature is implemented by calculating the positions of the spaceship, bullets, and enemies in each animation frame.
+
+5. **Modern Visual Experience with Dynamic Effects**: Using the `Particle` class, visual effects like explosions are added when enemies are destroyed, enhancing the game’s appeal. These visual effects make the game appear more professional and dynamic.
+
+This project showcases my ability to create interactive games using OOP to better structure code and enhance the user experience. The use of 'a', 'd', and spacebar keys for complete player control reflects attention to user experience and detail in game design.
